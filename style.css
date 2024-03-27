@@ -109,10 +109,11 @@ main{
     color: var(--white);
 }
 
-.gorjeta .botão-ativo{
+.botao-ativo {
     background-color: var(--light-green);
     color: var(--green-800);
 }
+
 
 .gorjeta input[type="button"]:hover,
 .resultados button:hover{
@@ -206,7 +207,7 @@ main{
     body{
         display: flex;
         flex-direction: column;
-        min-height: 100svh;
+        min-height: 100vh; 
         justify-content: center;
         gap: 5rem;
     }
@@ -228,15 +229,15 @@ main{
     .gorjeta div {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .resulados{
+    .resultados{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 2.5rem;
+        width: 100%;
 
     }
-    .resulados div > strong{
+    .resultados div > strong{
         font-size: 3rem;
     }
-    
 }
